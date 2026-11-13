@@ -66,3 +66,7 @@ The skill refers to "the candidate's master CV" and "the candidate's template". 
 - Scores are honest, not generous. A low score tells you where the gaps are.
 - The score can't go above 7 if any essential requirement has no evidence.
 - Always export the CV to PDF and check the page count before sending.
+
+## Licence
+
+MIT. Free to use and adapt.
