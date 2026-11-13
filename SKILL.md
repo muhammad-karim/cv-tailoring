@@ -1,7 +1,26 @@
 ---
 name: cv-tailoring
-description: Tailor a CV to a specific job advert and score it. Use when drafting or optimising a CV for a role, or when checking a CV against a job spec.
+description: Tailor a CV to a specific job advert, map it to the employer's requirements, draft it from a fixed template and score it out of 10 for fit. Use whenever someone asks to tailor, optimise, rewrite or score a CV for a job, or asks whether a CV matches a job spec, even if they don't say 'tailor'.
 ---
+
+<!--
+  HOW THIS SKILL WORKS (a note for people reading this file)
+
+  This file tells Claude how to tailor a CV to one job. It works in three steps:
+
+    1. PREPARE - Claude reads the full advert, builds a scorecard of what the
+                 employer asks for, and maps each requirement to real evidence
+                 in the master CV. Gaps are listed, not papered over.
+    2. DRAFT   - Claude builds the CV from the fixed template: two pages, the
+                 same headings, bullets that lead with the employer's skills and
+                 show results, and a page one that shows the fit within seconds.
+    3. CHECK   - Claude scores the finished CV out of 10 against the advert,
+                 runs an honesty test on every line, and checks the page count
+                 of the exported PDF before anything is sent.
+
+  Nothing is invented or stretched to raise the score. Facts come only from the
+  master CV.
+-->
 
 # CV tailoring
 
